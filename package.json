@@ -1,11 +1,11 @@
 {
-  "name": "learn-starter",
+  "name": "daniel12fsp",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "next export"
   },
   "dependencies": {
     "next": "^10.0.0",
