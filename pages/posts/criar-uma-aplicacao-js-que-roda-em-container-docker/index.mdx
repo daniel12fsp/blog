@@ -1,0 +1,57 @@
+# #1 - Criar uma aplicacao js que roda em container docker 
+
+## Aplicação genérica que vamos gerar uma imagem
+
+```js
+/* salvar o arquivo ./app.js */
+
+const http = require("http");
+const url = require("url");
+const port = process.env.PORT || 3000;
+
+const server = http.createServer((req, res) => {
+  res.writeHead(200, { "Content-Type": "text/html" });
+  res.statusCode = 200;
+  res.write(`<h1>Hello World</h1>`);
+  res.end();
+});
+
+server.listen(port, () => {
+  console.log(`Server listening on the port ${port}`);
+});
+```
+
+## Criar Dockerfile(Receita da aplicação)
+
+```dockerfile
+# salvar  ./Dockerfile\n
+FROM node:slim
+
+WORKDIR /usr/home
+
+COPY app.js .
+
+EXPOSE 3000
+
+CMD ["node", "app.js"]
+
+```
+
+## Buildar/Construir a imagem docker
+
+```dockerfile
+# Na pasta aonde está o Dockerfile e app.js
+docker build -t generic_app:v1
+
+```
+
+## Executar aplicação constuída
+
+```bash
+docker run --name app -p 3000:3000 -it generic_app:v1
+```
+
+
+## Bom vc será capaz de ver nesse link 
+
+http://localhost:3000/
