@@ -8,6 +8,7 @@ const withMDX = require("@next/mdx")({
     rehypePlugins: [rehypePrism],
   },
 });
+
 module.exports = withMDX({
   pageExtensions: ["js", "jsx", "mdx", "tsx"],
   webpack: (config, { isServer }) => {
