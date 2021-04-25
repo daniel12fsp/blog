@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const rootDirectoryPath = process.cwd();\nexport const postDirectoriesPath = `${rootDirectoryPath}/pages/posts`;\nexport const getMetadataFilePath = postDirectoryPath => `${postDirectoriesPath}/${postDirectoryPath}/metadata.json`;\nexport const getLink = postDirectory => `posts/${postDirectory}`;","map":null,"metadata":{},"sourceType":"module"}
