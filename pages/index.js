@@ -17,7 +17,7 @@ export default function MainPage({ posts }) {
       <ul>
         <li>Perder o medo de escrever</li>
         <li>Documentar achados com exemplos práticos</li>
-        <li>Ser o centralizador de códigos, dicas e comandos</li>
+        <li>Centralizar códigos, dicas e comandos</li>
       </ul>
       <div>
 	  <h1> Posts </h1>
