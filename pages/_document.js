@@ -9,11 +9,11 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head >
-	 <link rel="preconnect" href="https://fonts.gstatic.com"/>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet"/>
-	        <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
-	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css" />
-
+	  <link rel="preconnect" href="https://fonts.gstatic.com"/>
+          <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet"/>
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css" />
+          <meta name="yandex-verification" content="79a77ec25a16d825" />
 	</Head>
         <body>
           <Main>
