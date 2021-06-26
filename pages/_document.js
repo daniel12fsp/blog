@@ -7,7 +7,7 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="pt-BR">
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link rel="preconnect" href="https://cdn.jsdelivr.net" />
@@ -17,10 +17,13 @@ export default class MyDocument extends Document {
           />
           <link
             rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
+            href="https://cdn.jsdelivr.net/npm/water.css@2.0.0/out/dark.min.css"
           />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="yandex-verification" content="79a77ec25a16d825" />
+	    <meta charSet="utf-8"/>
+	    <meta  name="theme-color" content="#20232a" />
+	    <meta name="description" content="Dicas e códigos" />
         </Head>
         <body>
           <Main></Main>

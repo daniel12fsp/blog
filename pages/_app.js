@@ -1,5 +1,4 @@
-import "normalize.css/normalize.css";
-import "prismjs/themes/prism.css";
+import "prismjs/themes/prism-funky.css"
 import "./styles.css";
 
 import { NavBar } from "../components/Navbar";

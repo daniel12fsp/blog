@@ -1,5 +1,7 @@
 body {
-  background-color: rgb(247, 247, 247);
+  #background-color: rgb(247, 247, 247);
   padding: 0;
+  margin: 0;
   max-width: 100%;
+  --text-bright: #b2b0b0;
 }
